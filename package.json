@@ -1,0 +1,33 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "\"Graphql server\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovogmap/Graphql-yoga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovogmap/Graphql-yoga/issues"
+  },
+  "homepage": "https://github.com/ovogmap/Graphql-yoga#readme",
+  "dependencies": {
+    "core-js": "3",
+    "express": "^4.17.1",
+    "graphql-yoga": "^1.18.3",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11"
+  }
+}
